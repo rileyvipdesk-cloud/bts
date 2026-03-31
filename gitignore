@@ -1,20 +1,7 @@
-# Environment
-.env
-.dev.vars
+name = "bts"
+main = "index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
 
-# Node modules
-node_modules/
-
-# Wrangler
-.wrangler/
-
-# Logs
-*.log
-
-# Misc
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
+[build]
+command = "npm install"
